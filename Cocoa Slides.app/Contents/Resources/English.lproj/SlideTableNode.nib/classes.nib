@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {
+            CLASS = AssetCollectionViewNode; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                dimensionsTextField = NSTextField; 
+                imageView = NSImageView; 
+                kindTextField = NSTextField; 
+                rootView = SlideCarrierView; 
+                titleCheckBox = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = SlideCarrierView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {imageView = NSImageView; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = SlideImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }
+    ); 
+    IBVersion = 1; 
+}

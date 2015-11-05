@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = AssetCollectionView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BitmapCatalogView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {refresh = id; showSlideshowWindow = id; }; 
+            CLASS = BrowserWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                assetCollectionView = AssetCollectionView; 
+                slideshowView = SlideshowView; 
+                sortKeyPopUpButton = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = CatalogImageView; LANGUAGE = ObjC; SUPERCLASS = AATestPatternView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ImageAssetView; LANGUAGE = ObjC; SUPERCLASS = AATestPatternView; }, 
+        {CLASS = ImageCatalogView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = LKView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {showImageBrowserWindow = id; showImageInfoPanel = id; }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {imageBrowserWindow = id; imageInfoPanel = id; }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {CLASS = SlideshowView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

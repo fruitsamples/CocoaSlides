@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {refresh = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                browseBeachScreenSaverPictures = id; 
+                browseCosmosScreenSaverPictures = id; 
+                browseForestScreenSaverPictures = id; 
+                browseNatureDesktopPictures = id; 
+                browseNaturePatternsScreenSaverPictures = id; 
+                browsePaperShadowScreenSaverPictures = id; 
+                browsePlantsDesktopPictures = id; 
+                openBrowserWindow = id; 
+                showPreferencesPanel = id; 
+            }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {preferencesPanel = id; }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {
+            CLASS = SlideshowWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {slideshowImageView = NSImageView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
